@@ -7,8 +7,17 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "bip39": "^3.1.0",
+    "clipboard": "^2.0.11",
     "core-js": "^3.8.3",
-    "vue": "^3.2.13"
+    "ethereumjs-tx": "^1.3.7",
+    "ethereumjs-util": "^7.1.5",
+    "ethereumjs-wallet": "^1.0.2",
+    "store2": "^2.14.2",
+    "vant": "^4.0.11",
+    "vue": "^3.2.13",
+    "vue-clipboard3": "^2.0.0",
+    "web3": "^1.8.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.0",
@@ -16,6 +25,8 @@
     "@vue/cli-service": "~5.0.0",
     "less": "^4.0.0",
     "less-loader": "^8.0.0",
-    "typescript": "~4.5.5"
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "typescript": "~4.5.5",
+    "unplugin-vue-components": "^0.24.0"
   }
 }
